@@ -25,3 +25,11 @@ bloco.bebida=str(input("Digite sua bebida?  "))
 bloco.lanche=str(input("Digite um lanche?   "))
 bloco.maisalgo=str(input("Quer algo mais?   "))
 print(bloco.anotacao())
+
+class carro:
+    def monteseucarro(self):
+        return f"{self.cor},{self.cavalos}"
+motando=carro()
+motando.cor=str(input("Qual a cor do carro? "))
+motando.cavalos=str(input("Quantos cavalos? "))
+print(motando.monteseucarro())
